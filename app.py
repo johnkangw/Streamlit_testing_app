@@ -8,6 +8,13 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
+st.set_page_config(
+    page_title='Uber NYC data',
+    page_icon="🦈",
+)
+
+st.sidebar.success("Select a demo above.")
+
 st.title('Uber pickups in NYC')
 
 DATE_COLUMN = 'date/time'
