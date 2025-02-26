@@ -1,0 +1,8 @@
+[client]
+showErrorDetails = true
+
+[browser]
+gatherUsageStates = false
+
+[theme]
+base="dark"
